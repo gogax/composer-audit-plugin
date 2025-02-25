@@ -1,6 +1,6 @@
 <?php
 
-namespace gryzlov\ComposerAuditPlugin;
+namespace gogax\ComposerAuditPlugin;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
