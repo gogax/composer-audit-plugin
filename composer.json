@@ -1,0 +1,19 @@
+{
+  "name": "gryzlov/composer-audit-plugin",
+  "type": "composer-plugin",
+  "minimum-stability": "stable",
+  "require": {
+    "composer-plugin-api": "^2"
+  },
+  "require-dev": {
+    "composer/composer": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "gryzlov\\ComposerAuditPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "gryzlov\\ComposerAuditPlugin\\ComposerAuditPlugin"
+  }
+}

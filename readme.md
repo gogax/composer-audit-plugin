@@ -1,0 +1,1 @@
+Плагин для работы с packagist.org при выполнении composer audit
